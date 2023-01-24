@@ -13,7 +13,7 @@ def index(request):
         user_check = login + password
         if user_check in lst:                              
             return HttpResponse(f"<h2>Привет, {login}</h2>")
-                #Добавить переадресацию
+                #Добавить
         else:
             return HttpResponse(f"<h2>Неверный логин или пароль</h2>")
     else:
