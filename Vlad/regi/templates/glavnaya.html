@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static "css/glavnaya.css" %}" />
+    <title>Лучшее с папичем</title>
+  </head>
+  <body>
+<img class="bg"src="{% static "images/fon.gif" %}" alt="">
+    <img class="papich"src="{% static "images/papi2.png" %}">
+    <img class="ubor"src="{% static "images/gol-ubor-5-0.png" %}">
+<h1 class="nazvanie">PapichTv</h1>
+<div>
+  <h1 class="s"><a class="vb" href="/strim">Cтримы</a></h1>
+  <h1 class="g"><a class="vb" href="/gif">Гифки</a></h1>
+  <h1 class="v"><a class="vb" href="/video">Видео</a></h1>
+</div>
+<button class="border" type="sumbit"></button>
+<input class="poisck" type="text" placeholder="Найти стрим,видео,гифку">
+<h1 class="glavtext">Лучший сайт для
+просмотра стримов,гифок и видео про папича</h1>
+<form>
+  <button class="vhod" href="/sign">Войти</button>
+</form>
+<form>
+  <button class="reg" href="/register">Зарегистрироваться</button>
+</form>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static "css/cstrim.css" %}" />
+    <title>papich</title>
+  </head>
+  <body>
+    <img class="bg"src="{% static "images/fon.gif" %}" alt="">
+        <img class="ubor"src="{% static "images/gol-ubor-5-0.png" %}">
+    <h1 class="nazvanie">PapichTv</h1>
+    <div>
+      <h1 class="s"><a class="vb" href="/strim">Cтримы</a></h1>
+      <h1 class="g"><a class="vb" href="/gif">Гифки</a></h1>
+      <h1 class="v"><a class="vb" href="/video">Видео</a></h1>
+    </div>
+    <button class="border" type="sumbit"></button>
+    <input class="poisck" type="text" placeholder="Найти стрим,видео,гифку">
+    <form>
+      <button class="vhod" name="button" class="bottin" type="sumbit" formaction="/glavnaya">Войти</button>
+    </form>
+      <video class="video" src="{% static "video/jertva.mp4" %}" autoplay controls>
+    </video>
+
+
+
+  </body>
+</html>

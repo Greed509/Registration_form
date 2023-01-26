@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="{% static "css/video.css" %}" />
+    <title></title>
+  </head>
+  <body>
+    <img class="bg"src="{% static "images/fon.gif" %}" alt="">
+        <img class="ubor"src="{% static "images/gol-ubor-5-0.png" %}">
+    <h1 class="nazvanie">PapichTv</h1>
+    <div>
+      <h1 class="s"><a class="vb" href="/strim">Cтримы</a></h1>
+      <h1 class="g"><a class="vb" href="/gif">Гифки</a></h1>
+      <h1 class="v"><a class="vb" href="/video">Видео</a></h1>
+    </div>
+    <button class="border" type="sumbit"></button>
+    <input class="poisck" type="text" placeholder="Найти стрим,видео,гифку">
+    <form>
+    <button class="vhod" name="button" class="bottin" type="sumbit" formaction="/glavnaya">Войти</button>
+    </form>
+<a class="vb" href="video1">
+ <img class="strim1" src="{% static "images/god.jpg" %}">
+</a>
+<a class="vb" href="video2">
+ <img class="strim2" src="{% static "images/kung.jpg" %}">
+</a>
+<a class="vb" href="video3">
+ <img class="strim3" src="{% static "images/kaz.jpg" %}">
+</a>
+<a class="vb" href="video4">
+ <img class="strim4" src="{% static "images/adik.jpg" %}">
+</a>
+<a class="vb" href="video5">
+<img class="strim5" src="{% static "images/misha.jpg" %}">
+</a>
+<a class="vb" href="video6">
+ <img class="strim6" src="{% static "images/tetrad.jpg" %}">
+</a>
+<h1 class="ts1">32 года</h1>
+<h1 class="ts2">Кунг-фу</h1>
+<h1 class="ts3">Мистика</h1>
+<h1 class="ts4">Приступ адекватности</h1>
+<h1 class="ts5">Жертва</h1>
+<h1 class="ts6">Кира</h1>
+  </body>
+</html>

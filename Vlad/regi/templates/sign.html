@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static "css/sign.css" %}" />
+    <title>Вход</title>    
+    <script type="text/javascript"src="brython\brython.js"></script>
+    <script type="text/javascript" src="brython\brython_stdlib.js"></script>
+  </head>
+  <body> 
+    <div class="box">
+      <div class="form">
+        <h2>PapichTv</h2>
+        <form method="POST">
+          {% csrf_token %}
+          <table>
+            {{ form }}
+        </table>
+        <input type="submit" value="Отправить" >
+<div class="zp">
+<a href=""><span>Забыли Пароль?</span></a>
+<a class="zareg" href="/register"><span>Зарегистрироваться</span></a>
+</div>
+</form>
+</div>
+</div>
+    </div>
+  </body>

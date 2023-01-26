@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+background:#1F1C1C;
+}
+.bg {
+  position: absolute;
+  width: 1900px;
+  height: 970px;
+  left: 0px;
+  top: 0px;
+Opacity: 35%;
+}
+h1{
+  position: absolute;
+  width: 1586px;
+  height: 350px;
+  left: 167px;
+  top: 300px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 116px;
+  text-align: center;
+color: white;
+}
+.button{
+position: absolute;
+width: 256px;
+height: 63px;
+left: 832px;
+top: 776px;
+background: #BB1616;
+border-radius: 7px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+color:white;
+}
+.knopka{
+  position: absolute;
+width: 199px;
+height: 39px;
+left: 861px;
+top: 788px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+color: #FFFFFF;
+}

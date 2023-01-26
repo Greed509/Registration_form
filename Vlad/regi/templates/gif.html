@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+        <link rel="stylesheet" href="{% static "css/gif.css" %}" />
+    <title>Гифки Папича</title>
+  </head>
+  <body>
+    <img class="bg"src="{% static "images/fon.gif" %}" alt="">
+        <img class="ubor"src="{% static "images/gol-ubor-5-0.png" %}">
+    <h1 class="nazvanie">PapichTv</h1>
+    <div>
+      <h1 class="s"><a class="vb" href="/strim">Cтримы</a></h1>
+      <h1 class="g"><a class="vb" href="/gif">Гифки</a></h1>
+      <h1 class="v"><a class="vb" href="/video">Видео</a></h1>
+    </div>
+    <button class="border" type="sumbit"></button>
+    <input class="poisck" type="text" placeholder="Найти стрим,видео,гифку">
+    <form>
+      <button class="vhod" name="button" class="bottin" type="sumbit" formaction="/glavnaya">Войти</button>
+    </form>
+    <img class="gif1" src="{% static "images/papich.gif" %}">
+    <img class="gif2" src="{% static "images/arthas.gif" %}">
+    <img class="gif3" src="{% static "images/gant.gif" %}">
+    <h1 class="pan">Папич и натс</h1>
+    <h1 class="pag">Папич и очки</h1>
+    <h1 class="paga">Папич на спорте</h1>
+  </body>
+</html>

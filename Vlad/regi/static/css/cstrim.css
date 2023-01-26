@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
+body{
+  background: url(/images/fon.gif);
+  weight:1920;
+  height:500;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg{
+  position: absolute;
+width: 1920px;
+height: 955px;
+left: 0px;
+top: 0px;
+z-index: -1;
+opacity: 18%;
+}
+.nazvanie{
+position: absolute;
+width: 271px;
+height: 85px;
+left: 80px;
+top: -10px;
+font-family: 'Irish Grover';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 73px;
+
+color: #FFFFFF;
+}
+.s{
+position: absolute;
+width: 135px;
+height: 44px;
+left: 338px;
+top: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+}
+.g{
+  position: absolute;
+  width: 182px;
+  height: 69px;
+  left: 522px;
+  top: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+.v{
+  position: absolute;
+  width: 182px;
+  height: 69px;
+  left: 677px;
+  top: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+
+  color: #FFFFFF;
+}
+.border{
+width: 1768px;
+height: 0px;
+left: calc(50% - 1768px/2);
+top: calc(50% - 0px/2 - 420px);
+border: 5px solid red;
+position: absolute;
+margin:  70px 0px 50px 0px;
+}
+a:link{
+color:white;
+text-decoration: none;
+}
+a:visited{
+color:white;
+text-decoration: none;
+}
+a:hover{
+color:red;
+border-bottom: .07em solid;
+text-decoration: none;
+}
+a:active{
+color:blue;
+border-bottom: 1px dashed;
+text-decoration: none;
+}
+
+.vhod{
+  position: absolute;
+width: 158px;
+height: 73px;
+left: 1685px;
+top: 33px;
+background: #BB1616;
+border-radius: 7px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+}
+.poisck{
+  box-sizing: border-box;
+color: white;
+position: absolute;
+width: 697px;
+height: 62px;
+left: 865px;
+top: 37px;
+background: #252424;
+border: 2px solid #FFFFFF;
+border-radius: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 44px;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+}
+button:hover{
+  color:red;
+  border-bottom: .07em solid;
+  text-decoration: none;
+}
+.ubor{
+  position: absolute;
+width: 89px;
+height: 73px;
+left: 263px;
+top: 5px;
+transform: rotate(12.26deg);
+z-index: 1;
+}
+.video{
+  position: absolute;
+  width: 1711px;
+  height: 736px;
+  left: 100px;
+  top: 160px;
+  background: #D9D9D9;
+}

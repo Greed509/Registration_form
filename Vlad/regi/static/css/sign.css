@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #23242a;
+  font-family: 'Inter';
+  font-style: normal;
+}
+.box{
+  position: relative;
+  width: 380px;
+  height: 420px;
+  background:#1c1c1c;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.form{
+  position:absolute;
+  inset: 2px;
+  border-radius: 8px;
+  background: #28292d;
+  z-index: 10;
+  padding: 2px 40px;
+  flex-direction: column;
+  border-style: solid;
+  border-color: red;
+}
+.inputbox{
+position: relative;
+width: 300px;
+margin-top: 10px;
+font-size: 25px;
+padding-top: 5px;
+}
+.form h2{
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Irish Grover';
+  font-size: 60px;
+  top: -10px;
+}
+.inputbox input{
+  position: relative;
+  width:100%;
+  padding: 5px 0px 5px;
+  margin-top: 0.4px;
+  background:#840000;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.05em;
+  color: white;
+  border-radius: 4px;
+}
+
+button{
+  position:absolute;
+margin-top: 15px;
+  background: #BB1616;
+  border-radius: 7px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  color: white;
+  margin-left: -10px;
+  cursor: pointer;
+}
+.zp{
+  padding-top: 10px;
+  font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+}
+.zareg{
+position: relative;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color:red;
+}
+span{
+  font-size: 30px;
+}
+h1{
+margin-top: -30px;
+margin-left: 40px;
+color: #cc0505;
+}
