@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
 body{
   background: url(/images/fon.gif);
-  weight:1920;
+  width:1920;
   height:500;
   background-color: black;
   background-repeat: no-repeat;
